@@ -36,3 +36,16 @@ DNS = 162.252.172.57, 149.154.159.92
 PublicKey = qyghLDfpfyparp0M52OVcmhKckayOvbRO2DDLkgJqyk=
 AllowedIPs = 0.0.0.0/0
 Endpoint = id-jak.prod.surfshark.com:51820
+
+【新加坡】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = MGfgkhJsMVMTO33h1wr76+z6gQr/93VcGdClfbaPsnU=
+AllowedIPs = 0.0.0.0/0
+Endpoint = sg-sng.prod.surfshark.com:51820
