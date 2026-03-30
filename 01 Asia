@@ -17,9 +17,22 @@ Endpoint = tw-tai.prod.surfshark.com:51820
 #
 [Interface]
 Address = 10.14.0.2/16
-PrivateKey = <insert_your_private_key_here>
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
 DNS = 162.252.172.57, 149.154.159.92
 [Peer]
 PublicKey = JYHdktdtuM7inbtsxRKSDpnBVTWQ5+QLZ/cWWmf4VRg=
 AllowedIPs = 0.0.0.0/0
 Endpoint = hk-hkg.prod.surfshark.com:51820
+
+【澳门】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = uMD8IFggqtF0ZbviJJFMQFhR3R52mVqhoJmKPt+aACs=
+AllowedIPs = 0.0.0.0/0
+Endpoint = mo-mfm.prod.surfshark.com:51820
