@@ -62,3 +62,68 @@ DNS = 162.252.172.57, 149.154.159.92
 PublicKey = utXZy1ELBSQKa6s9/K/W4sV11Jod6sSLoikKqKRPyQs=
 AllowedIPs = 0.0.0.0/0
 Endpoint = ph-mnl.prod.surfshark.com:51820
+
+【泰国】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = OoFY46j/w4uQFyFu/OQ/h3x+ymJ1DJ4UR1fwGNxOxk0=
+AllowedIPs = 0.0.0.0/0
+Endpoint = th-bkk.prod.surfshark.com:51820
+
+【缅甸】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = tehGZzcmdK59x99I9dbfuWOHSxBdPsz5lB+uAoT75kE=
+AllowedIPs = 0.0.0.0/0
+Endpoint = mm-nyt.prod.surfshark.com:51820
+
+【老挝】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = yIlpSftvkSE2+T0uqxWl9HeQSrmPg+HkyvGLi55UqG0=
+AllowedIPs = 0.0.0.0/0
+Endpoint = la-vte.prod.surfshark.com:51820
+
+【柬埔寨】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = z2Ik8BG6XgosyYE/O4Vz4kiPTZyoWSlJvZtFeFlNclI=
+AllowedIPs = 0.0.0.0/0
+Endpoint = kh-pnh.prod.surfshark.com:51820
+
+【文莱】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = QE7hpHqVYWqohTmOnmYtKjUv4b6Bb8S2b9AF0EFl638=
+AllowedIPs = 0.0.0.0/0
+Endpoint = bn-bwn.prod.surfshark.com:51820
