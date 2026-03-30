@@ -10,3 +10,16 @@ DNS = 162.252.172.57, 149.154.159.92
 PublicKey = Mioou38fh5H+3LWMpitLOWT3JaDGg2gXxqjl2eXkPFU=
 AllowedIPs = 0.0.0.0/0
 Endpoint = vn-hcm.prod.surfshark.com:51820
+
+【马来西亚】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = AS84LXlJfgBwGHc70MvtGRxsMqNNucZ2pNOBayJUm04=
+AllowedIPs = 0.0.0.0/0
+Endpoint = my-kul.prod.surfshark.com:51820
