@@ -1,0 +1,12 @@
+【越南】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = <insert_your_private_key_here>
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = Mioou38fh5H+3LWMpitLOWT3JaDGg2gXxqjl2eXkPFU=
+AllowedIPs = 0.0.0.0/0
+Endpoint = vn-hcm.prod.surfshark.com:51820
