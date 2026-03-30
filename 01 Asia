@@ -36,3 +36,42 @@ DNS = 162.252.172.57, 149.154.159.92
 PublicKey = uMD8IFggqtF0ZbviJJFMQFhR3R52mVqhoJmKPt+aACs=
 AllowedIPs = 0.0.0.0/0
 Endpoint = mo-mfm.prod.surfshark.com:51820
+
+【日本】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = YJSjrc/WWOjQUyUi4iYcHb7LsWWoCY+2fK8/8VtC/BY=
+AllowedIPs = 0.0.0.0/0
+Endpoint = jp-tok.prod.surfshark.com:51820
+
+【韩国】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = bD/m2mdKxJXG2wTkLsmWpiW8xZwkDdrrrwC44auOhQg=
+AllowedIPs = 0.0.0.0/0
+Endpoint = kr-seo.prod.surfshark.com:51820
+
+【蒙古】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = 3nLHy4uBd2nBUDuAuR6AM58yHLiX2CAXg8kdgEr6tV4=
+AllowedIPs = 0.0.0.0/0
+Endpoint = mn-uln.prod.surfshark.com:51820
