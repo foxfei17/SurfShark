@@ -88,3 +88,16 @@ DNS = 162.252.172.57, 149.154.159.92
 PublicKey = Y5KM9kHdM0upMsIJWUQquOY1RgkWX69AHw/Dl5KyIk4=
 AllowedIPs = 0.0.0.0/0
 Endpoint = au-syd.prod.surfshark.com:51820
+
+【新西兰】
+#
+# Use this configuration with WireGuard client
+#
+[Interface]
+Address = 10.14.0.2/16
+PrivateKey = wGtIcpA10e0sH4zywqEhVU80m4mslKx1iydivjNgvnw=
+DNS = 162.252.172.57, 149.154.159.92
+[Peer]
+PublicKey = xv8P19y0m9ojrLelCaPzGtaVv7tlPzLgZxvAD7lpYDg=
+AllowedIPs = 0.0.0.0/0
+Endpoint = nz-akl.prod.surfshark.com:51820
